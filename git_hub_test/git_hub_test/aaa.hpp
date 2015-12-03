@@ -11,17 +11,22 @@
 
 #include <stdio.h>
 #include <iostream>
+#include "MOAB.hpp"
 
-class aaa {
+class aaa : public MOAB{
     
 public:
     aaa();
     virtual ~aaa();
     
-private:
+//private:
     
     void func_A_1();
     
+    virtual void FUNC_MOAB_Virtual_Zero();
+    
+    virtual void FUNC_MOAB_Virtual_Zero_PROTECTED();
+
 protected:
     
     

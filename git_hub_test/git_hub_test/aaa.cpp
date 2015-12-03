@@ -22,3 +22,11 @@ void aaa::func_A_1()
 {
     printf("%s\n", __PRETTY_FUNCTION__);
 }
+
+void aaa::FUNC_MOAB_Virtual_Zero(){
+    printf("%s\n", __PRETTY_FUNCTION__);
+}
+
+void aaa::FUNC_MOAB_Virtual_Zero_PROTECTED(){
+    printf("%s\n", __PRETTY_FUNCTION__);
+}
