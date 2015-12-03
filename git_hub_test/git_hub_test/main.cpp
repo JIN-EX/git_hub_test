@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+#include "aaa.hpp"
+
+class aaa *A;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+
+    A = new aaa();
+    
+    delete A;
+    
+    
     return 0;
 }
